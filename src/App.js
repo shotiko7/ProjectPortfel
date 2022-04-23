@@ -1,9 +1,8 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
-
+import React from "react";
 function App() {
   return (
-    <div className="App">
-      <h2> Portfel </h2> 
+    <div>
+      <h2> We build react, and next we will build responsive site </h2>
     </div>
   );
 }
