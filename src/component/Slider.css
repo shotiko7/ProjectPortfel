@@ -4,7 +4,7 @@
     margin: 100px auto 0;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 10px 20px Orgba(0, 0, e, 0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, e, 0.2);
 }
 @media screen and (max-width: 700px){
     .container-slider {
@@ -15,7 +15,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    opacity: 0;
+    opacity: 1;
     transition: opacity ease-in-out 0.4s;
 }       
 .slider img {
