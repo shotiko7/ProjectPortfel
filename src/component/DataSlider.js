@@ -1,28 +1,28 @@
-
-export const dataSlider = [
+const DataSlider =  [
     {
-        id: uuuidv(),
+        id: '1',
         title: "Lorem ipsum",
         subTitle: "Lorem"
     },
     {
-        id: uuuidv(),
+        id: "2",
         title: "Lorem ipsum",
         subTitle: "Lorem"
     },
     {
-        id: uuuidv(),
+        id: "3",
         title: "Lorem ipsum",
         subTitle: "Lorem"
     },
     {
-        id: uuuidv(),
+        id: "4",
         title: "Lorem ipsum",
         subTitle: "Lorem"
     },
     {
-        id: uuuidv(),
+        id: "5",
         title: "Lorem ipsum",
         subTitle: "Lorem"
     }
 ]
+export default DataSlider

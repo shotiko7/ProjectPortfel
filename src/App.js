@@ -1,8 +1,10 @@
 import React from "react";
-import dataSlider from "./component/DataSlider";
+import Slider from "./component/Slider";
 function App() {
   return (
-    <div> </div>
+    <div>
+      <Slider />
+    </div>
   )
 }
 
