@@ -14,13 +14,18 @@ function Slider() {
         }
     }
     const prevSlide =()=>{
-
+        if(slide !==1 ){
+            setSlide(slide - 1)
+        }
+        else if (slide === 1){
+            setSlide(DataSlider.length)
+        }
     }
   return (
     <div className='container-slider'>
         {DataSlider.map((obj, index)=>{
             return (
-                <div className={slide === index + 1 ? 'slide active-anim' : 'slider'}> <img src={process.env.PUBLIC_URL + `/assets/img${index + 1}.jpg`} /> </div>
+                <div key={obj.id} className={slide === index + 1 ? 'slide active-anim' : 'slider'}> <img src={process.env.PUBLIC_URL + `/assets/img${index + 1}.jpg`} /> </div>
             )
         })}
         <Button moveSlide={nextSlide} direction='next' />
